@@ -1,0 +1,39 @@
+body{
+    background-image: url(Resources/Background.jpg);
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#bookshelf{
+    position: fixed;
+    top: 500px;
+    left: 1500px;
+}
+
+#bookshelf:hover{
+    position: fixed;
+    opacity: 0%;
+}
+
+#bookshelfhover{
+    position: fixed;
+    top: 500px;
+    left: 1500px;
+    z-index: -1;
+}
+
+#reading{
+    position: fixed;
+    top: 580px;
+    left: 100px;
+}
+
+#picture{
+    position: fixed;
+    top: 500px;
+    left: 500px;
+}
